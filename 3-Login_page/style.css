@@ -1,0 +1,110 @@
+body{
+    background-image: url('/background.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#layout{
+    width: 800px;
+    height: 450px;
+    margin: 100px auto;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#left-box, #right-box{
+    padding: 20px 30px;
+}
+
+h2{
+    font-size: 60px;
+    font-weight: 100;
+    display: inline-block;
+    border-bottom: 2px solid blue;
+    padding-bottom: 0px;
+    margin: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+span{
+    color: blue;
+}
+
+h3{
+    text-align: center;
+}
+
+
+/*LEFT BOX*/
+
+#left-box{
+    width: 400px;
+    margin-right: 5px;
+    background-color: #fff;
+}
+
+
+
+
+/*RIGHT BOX*/
+#right-box{
+    flex-grow: 1;
+    text-align: center;
+    padding-right: 40px;
+    background-color: #ffffff99
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #333;
+}
+
+input[type="submit"]{
+    height: 40px;
+    width: 108%;
+    background-color: blue;
+    color: #fff;
+}
+
+
+#sign-in-with-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    font-size: 1.5em;
+    background-color: #e4e4e4;
+    padding: 8px;
+}
+
+
+/*PSEUDO SELECTORS*/
+input[type="submit"], i{
+    cursor: pointer
+}
+
+i:hover{
+    background-color: #f0ecec;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(64, 64, 244);
+}
