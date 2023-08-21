@@ -1,0 +1,128 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 12px;
+}
+
+h3{
+    display: inline-block;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ddd;
+}
+
+#layout{
+    width: 800px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+#menu-box, #middle-box, #right-box{
+    height: 100%;
+    padding: 0px 10px
+}
+
+#menu-box{
+    width: 200px
+}
+
+#middle-box{
+    width: 350px;
+}
+
+#right-box{
+    width: 250px;
+}
+
+#menu-box, #right-box{
+    background-color: #ddd;
+}
+/*Menu section*/
+
+
+#menu-box header h3{
+    width: 88%;
+    height: 20px;
+}
+
+#menu-box header i{
+   width: 9%; 
+}
+
+#menu-box input{
+    padding: 7px;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: #fffefe1a;
+}
+
+.menu-section-items-box{
+    padding: 0px;
+    margin: 10px 0px 10px 0px;
+    height: 120px;
+
+}
+
+.menu-section-items-box li{
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 3px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.menu-section-items-box li i, .menu-section-items-box li p{
+    display: inline-block;
+    margin: 0px 0px 5px 0px;
+}
+
+.menu-section-items-box li i{
+   width: 10%; 
+}
+
+.menu-section-item-title{
+    width: 70%;
+}
+
+.menu-section-item-counter{
+    width: 10%;
+    background-color: #ccc;
+    text-align: center;
+
+}
+
+.menu-section-tags-element{
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 25px;
+}
+
+.menu-section-tags-element p{
+    margin: 5px 8px;
+}
+
+#menu-section-footer i{
+    margin-right: 10px;
+}
+
+#menu-section-footer p{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#menu-section-footer p:hover, .menu-section-items-box li:hover{
+    cursor: pointer;
+    background-color: #333;
+}
+
