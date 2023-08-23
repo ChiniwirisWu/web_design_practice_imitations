@@ -14,7 +14,7 @@ h3{
 body{
     width: 100vw;
     height: 100vh;
-    background-color: #ddd;
+    background-color: #758b69;
 }
 
 #layout{
@@ -24,9 +24,10 @@ body{
     border-radius: 20px;
     padding: 10px;
     margin: 100px auto;
+    display: flex;
 }
 
-#menu-box, #middle-box, #right-box{
+#menu-box, #today-box, #task-box{
     height: 100%;
     padding: 0px 10px
 }
@@ -35,15 +36,15 @@ body{
     width: 200px
 }
 
-#middle-box{
-    width: 350px;
+#today-box{
+    width: 340px;
 }
 
-#right-box{
+#task-box{
     width: 250px;
 }
 
-#menu-box, #right-box{
+#menu-box, #task-box{
     background-color: #ddd;
 }
 /*Menu section*/
@@ -123,6 +124,82 @@ body{
 
 #menu-section-footer p:hover, .menu-section-items-box li:hover{
     cursor: pointer;
-    background-color: #333;
+    background-color: #bbb;
 }
 
+
+
+/*TODAY BOX*/
+#today-box{
+    padding-top: 10px;
+}
+
+#today-box header h1, #today-box p{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+#today-box p{
+    background-color: #ccc;
+    padding: 10px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+#today-box input[type="text"]{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#today-section{
+    margin-top: 30px;
+}
+
+.today-item{
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    margin-top: 3px;
+    border-radius: 5px; 
+}
+
+/*TASK BOX*/
+#task-box{
+    position: relative
+}
+
+#task-box input[type="text"], #task-box textarea{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 12px;
+}
+
+#task-footer{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+#task-footer button{
+    padding: 10px 10px;
+    width: 45%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+textarea{
+    margin-top: 10px;
+}
+
+
+#task-footer button[type="submit"]{
+    background-color: #eaa504;
+    color: #fff;
+}

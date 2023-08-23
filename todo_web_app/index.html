@@ -28,7 +28,7 @@
                             <p class="menu-section-item-counter">2</p>
                         </li>
                     </ul>
-
+                </div>
                 <div class="menu-section">
                     <p class="menu-section-title"><b>Task</b></p>
                     <ul class="menu-section-items-box">
@@ -56,10 +56,67 @@
                 </div>
             </div>
 
+            <div id="today-box">
+                <header>
+                    <h1>Today</h1>
+                    <p>5</p>
+                </header>
+                <input type="text" placeholder="Add New Task">
+                <div id="today-section">
+                    <form action="#" autocomplete="off">
+                        <div class="today-item">
+                            <input type="checkbox" name="1" id="1">
+                            <label for="1">Research content ideas</label>
+                        </div>
+                        <div class="today-item">
+                            <input type="checkbox" name="1" id="1">
+                            <label for="1">Research content ideas</label>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div id="task-box">
+                <header>
+                    <h3>Task</h3>
+                    <form action="#">
+                        <input type="text" name="title" id="title" placeholder="Renew drivers licence">
+                        <textarea name="description" id="" cols="30" rows="10"></textarea>
+                        <br>
+                        <br>
+                        <label for="list">list</label>
+                        <select name="list" id="list">
+                            <option value="personal">Personal</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="Due date">Due date</label>
+                        <select name="due_date" id="due_date">
+                            <option value="1">11-03-22</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="tags-container">tags</label>
+                        <select name="tags" id="tags">
+                            <option value="tags">tag1</option>
+                        </select>
+                        <br>
+                        <h3>Subtask</h3>
+                        <input type="text" placeholder="Add new subtask">
+                        <div class="today-item">
+                            <input type="checkbox" name="subtask" id="subtask">
+                            <label for="subtask">Subtask</label>
+                        </div>
+                        <div id="task-footer">
+                            <button type="reset">Delete task</button>
+                            <button type="submit">Save Changes</button>
+                        </div>
+                    </form>
+                </header>
+            </div>
 
 
-            <div id="middle-box"></div>
-            <div id="right-box"></div>
         </div>
     </body>
 </html>
