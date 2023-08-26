@@ -35,7 +35,7 @@ h1{
 }
 
 #right-box{
-    background-image: url('/background\ \(2\).jpg');
+    background-image: url('./background\ \(2\).jpg');
     object-fit: cover;
     color: #fff;
 }

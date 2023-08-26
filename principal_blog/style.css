@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+h2{
+    margin-bottom: 20px
+}
+
+#search-page input[type="text"], #search-page button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#search-page input[type="text"]{
+    width: 77%;
+}
+
+#search-page button{
+    background-color: #eea28b;
+    cursor: pointer;
+}
+
+
+#header-bar{
+    background-color: rgba(0, 100, 100,0.5);
+}
+
+header{
+    background-color: rgba(0, 120, 120,0.5);
+    height: 300px;
+}
+
+header ul{
+    list-style: none;
+    display: inline-block;
+    width: 90%;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header ul li i{
+    margin-right: 20px;
+}
+
+header i{
+    width: 9%;
+    text-align: end;
+    cursor: pointer;
+}
+
+#header-img{
+    width: 300px;
+}
+
+#header-img h1{
+    text-align: center;
+}
+
+header img{
+    width: 100%;
+}
+
+/*
+MAIN 
+*/
+
+main{
+    display: flex;
+    margin-top: 200px;
+    height: 1000px;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+#search-page, #pages-preview{
+    height: 100%;
+}
+
+#search-page{
+    width: 25%;
+    background-color: rgba(0, 200, 200,0.1);
+    box-shadow: 0px 0px 5px 5px rgba(0, 150, 150);
+    padding: 20px;
+}
+
+
+#page-preview{
+    margin-left: 40px;
+    width: 72%;
+    background-color: #ccc;
+}
+
+.page{
+    margin-top: 10px;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+}
+
+.page a, .page p{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.page p{
+    float: right;
+}
+
+
+footer{
+    margin-top: 100px;
+    background-color: rgba(0, 120, 120,0.5);
+    height: 300px;
+}
+
+
+
+
+
+
+/*
+Pseudo selectors
+*/
+
+header ul li:hover{
+    background-color: rgba(0, 100, 100,0.5);
+}
+
+
+#search-page button:hover{
+    background-color: #cc918b;
+}
+
+.page:hover{
+    background-color:rgba(0, 100, 100, 1);
+    color: #fff;
+}
+
+.page:hover > a{
+    color: rgb(255, 55, 55);
+}
