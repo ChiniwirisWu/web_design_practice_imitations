@@ -1,0 +1,11 @@
+Ideas:
+1. Crear un projecto que tenga varias aplicaciones, entre ellas, habit tracker, calendario, notebook, etc.
+2. Todo el proyecto y sus aplicaciones tendrán diseños relacionados entre si.
+
+
+Apps:
+1. Habit tracker.
+
+
+
+
